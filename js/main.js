@@ -149,14 +149,47 @@
 //     }
 //   }
 
-let products = ["Keyboard", "Mouse", "Pen", "Pad", "Monitor", "iPhone"];
-let i = 0;
+// let products = ["Keyboard", "Mouse", "Pen", "Pad", "Monitor", "iPhone"];
+// let i = 0;
 
-for (;;) {
-  console.log(products[i]);
-  i++;
-  if (i === products.length) break;
-}
+// for (;;) {
+//   console.log(products[i]);
+//   i++;
+//   if (i === products.length) break;
+// }
+// let products = ["Keyboard", "Mouse", "Pen", "Pad", "Monitor", "iPhone"];
+
+// let index = 0;
+
+// while (index < products.length) {
+//   console.log(products[index]);
+//   index += 1;
+// }
+
+// let products = ["Keyboard", "Mouse", "Pen", "Pad", "Monitor", "iPhone"];
+
+// let i = 0;
+
+// do {
+//   console.log(i);
+//   i++;
+// } while (false);
+
+// console.log(i);
+
+// function sayHello(username)
+// {
+//     console.log(`Hello ${username}`);
+// }
+// sayHello("Osama");
+// sayHello("Sayed");
+// sayHello("Ali");s
+
+
+
+
+
+
 
 
 
