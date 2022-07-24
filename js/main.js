@@ -59,6 +59,39 @@
 // console.log(myFriends);
 
 // console.log(`Last Name Is ${last}`);
+// let myFriends = ["Ahmed", "Mohamed", "Sayed", "Alaa", "Ahmed"];
+// console.log(myFriends);
+// console.log(myFriends.indexOf("Ahmed"));
+// console.log(myFriends.lastIndexOf("Ahmed"));
+// console.log(myFriends.lastIndexOf("Ahmed", -2));
+// console.log(myFriends.includes("Ahmed"));
+// console.log(myFriends.includes("Ahmed", 2));
+// if (myFriends.lastIndexOf("Osama") === -1) {
+//     console.log("Not Found");
+//   }
+//   console.log(myFriends.indexOf("Osama"));
+// console.log(myFriends.lastIndexOf("Osama"));
+
+// let myFriends = [10, "Sayed", "Mohamed", "90", 9000, 100, 20, "10", -20, -10];
+
+// console.log(myFriends);
+// console.log(myFriends.sort().reverse());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
