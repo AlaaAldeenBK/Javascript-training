@@ -208,11 +208,57 @@
   
 //   generateYears(1982, 2021, 2020);
 
+// function generate(start, end) {
+//     for (let i = start; i <= end; i++) {
+//       if (i === 15) {
+//         return `Interrupting`;
+//       }
+//       console.log(i);
+//     }
+//   }
+  
+//   console.log(generate(10, 20));
+
+// function sayHello(username , age) {
+//     if (age === undefined) {
+//       age = "Unknown";
+//     }
+//     username= username|| "Unknown";
+//     return `Hello ${username} Your Age Is ${age}`;
+//   }
+  
+//   console.log(sayHello());
+
+// function calc(...numbers)
+// {
+//     let result =0;
+//     for(let i=0; i<numbers.length; i++)
+//     {
+//         result += numbers[i];
+//     }
+//     return `The Final Result is ${result}`;
+// }
+// console.log(calc(10,20,30,40,50));
 
 
-
-
-
+// function showInfo(us = "Un", ag = "Un", rt = 0, show = "Yes", ...sk) {
+//     document.write(`<div>`);
+//     document.write(`<h2>Welcome, ${us}</h2>`);
+//     document.write(`<p>Age: ${ag}</p>`);
+//     document.write(`<p>Hour Rate: $${rt}</p>`);
+//     if (show === "Yes") {
+//       if (sk.length > 0) {
+//         document.write(`<p>Skills: ${sk.join(" | ")}</p>`);
+//       } else {
+//         document.write(`<p>Skills: No Skills</p>`);
+//       }
+//     } else {
+//       document.write(`<p>Skills Is Hidden</p>`);
+//     }
+//     document.write(`</div>`);
+//   }
+  
+//   showInfo("Osama", 38, 20, "Yes", "Html", "CSS");
 
 
 
