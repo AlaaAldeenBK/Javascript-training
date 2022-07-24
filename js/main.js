@@ -260,6 +260,86 @@
   
 //   showInfo("Osama", 38, 20, "Yes", "Html", "CSS");
 
+// let calculator = function(num1, num2)
+// {
+//     return num1 + num2;
+// }
+
+// console.log(calculator(10,20))
+
+// setTimeout(function elzero() {
+//     console.log("Good");
+//   }, 20000);
+
+// function sayMessage(fName, lName) {
+//     let message = `Hello`;
+//     // Nested Function
+//     function concatMsg() {
+//       message = `${message} ${fName} ${lName}`;
+//     }
+//     concatMsg();
+//     return message;
+//   }
+//   console.log(sayMessage("Osama", "Mohamed"));
+
+
+// function sayMessage(fName, lName) {
+//     let message = `Hello`;
+//     // Nested Function
+//     function concatMsg() {
+//       return `${message} ${fName} ${lName}`;
+//     }
+//     return concatMsg();
+//   }
+  
+//   console.log(sayMessage("Osama", "Mohamed"));
+
+// function sayMessage(fName, lName) {
+//     let message = `Hello`;
+//     // Nested Function
+//     function concatMsg() {
+//       function getFullName() {
+//         return `${fName} ${lName}`;
+//       }
+//       return `${message} ${getFullName()}`;
+//     }
+//     return concatMsg();
+//   }
+  
+//   console.log(sayMessage("Osama", "Mohamed"));
+
+// function print(){
+//     return 10;
+// }
+// console.log(print());
+
+// let print = () =>{
+//     let a =10;
+//     return a;
+// }
+
+// let print = _ =>  10;
+
+// console.log(print());
+
+// let print = (num1, num2) =>
+// {
+//     return num1+num2;
+// } 
+
+// console.log(print(10,20));
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
