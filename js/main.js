@@ -344,6 +344,103 @@
 
 // showText();
 
+// var x = 10;
+
+// if (10 === 10) {
+//   let x = 50;
+//   console.log(`From If Block ${x}`);
+// }
+
+// console.log(`From Global ${x}`);
+
+// function parent() {
+//     let a = 10;
+  
+//     function child() {
+//       let b = 100;
+//       console.log(a);
+//       console.log(`From Child ${b}`);
+  
+//       function grand() {
+        
+//         console.log(`From Grand ${a}`);
+//         console.log(`From Grand ${b}`);
+//       }
+//       grand();
+//     }
+//     child();
+//   }
+//   parent();
+
+// let user = {
+//     // Properties
+//     theName: "Osama",
+//     theAge: 38,
+//     // Methods
+//     sayHello: function()
+//     {
+//         return `Hello`;
+//     }
+// };
+// console.log(`${user.sayHello()} ${user.theName} your  age is ${user.theAge}`);
+
+// let myVar = "country";
+// let user = {
+//     theName:"Alaa",
+//     country: "Yemen"
+// };
+// console.log(user.theName);
+// console.log(user.country);
+// console.log(`${user["theName"]}`);
+// // console.log(`${user["country"]}`)
+// console.log(`${user[myVar]}`);
+
+
+// let user = {
+//     name: "Osama",
+//     age: 38,
+//     skills: ["HTML", "CSS", "JS"],
+//     available: false,
+//     addresses: {
+//         ksa: "Riyadh",
+//         egypt: {
+//             one: "Cairo",
+//             two: "Giza",
+//         },
+//     },
+//     checkAv: function () {
+//         if (user.available === true) {
+//           return `Free For Work`;
+//         } else {
+//           return `Not Free`;
+//         }
+//     }
+// };
+// console.log(user.name);
+// console.log(user.age);
+// console.log(user.skills);
+// console.log(user.skills.join(" | "));
+// console.log(user.skills[2]);
+// console.log(user.addresses.ksa);
+// console.log(user.addresses.egypt.one);
+// console.log(user["addresses"].egypt.one);
+// console.log(user["addresses"]["egypt"]);
+// console.log(user["addresses"]["egypt"]["one"]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
