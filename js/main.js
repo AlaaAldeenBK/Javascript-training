@@ -526,8 +526,30 @@
 // // const myobj2 = JSON.parse(myobj);
 // // console.log(typeof myobj2);
 // // console.log(myobj2);
+// console.log("1");
+// console.log("2");
+// window.alert("Operation");
+// console.log("3");
 
 
+// console.log("1");
+// console.log("2");
+// setTimeout(() => console.log("Operation"),4000)
+// console.log("3");
+// setTimeout(() => console.log("Web API"),0);
+// function one() {
+//     console.log("One");
+//   }
+//   function two() {
+//     one();
+//     console.log("Two");
+//   }
+//   function three() {
+//     two();
+//     console.log("Three");
+//   }
+  
+//   three();
 
 
 
