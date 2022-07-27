@@ -426,13 +426,88 @@
 // console.log(user["addresses"].egypt.one);
 // console.log(user["addresses"]["egypt"]);
 // console.log(user["addresses"]["egypt"]["one"]);
+// let user = new Object({
+//     age: 20
+// });
+// user.age=38;
+// user["country"] = "Yemen";
+// user.sayHello = function(){
+//     return `Hello`
+// }
+
+// console.log(user)
+// console.log(user["age"]);
+// console.log(user.country);
+// console.log(`${user.sayHello()}`);
+
+// console.log(this);
+// console.log(this === window);
+// myVar = 100;
+
+// console.log(window.myVar);
+// console.log(this.myVar);
+// function sayHello() {
+//     console.log(this);
+//     return this;
+//   }
+//   sayHello();
+//   console.log(sayHello() === window);
+
+//   let user = {
+//     age: 38,
+//     ageInDays: function () {
+//       console.log(this);
+//       return this.age * 365;
+//     },
+//   };
+  
+//   console.log(user.age);
+//   console.log(user.ageInDays());
 
 
+// let obj = Object.create({
+//     a: 100,
+//     doubleAge: function () {
+//     return this.age * 2;
+//     }
+// });
 
 
+// // console.log(obj.name)
+// let copobj = Object.create(obj);
+// copobj.age = 20;
+// console.log(copobj)
+// console.log(copobj.doubleAge());
 
+// let obj1 = {
+//     prop1: 1,
+//     meth1: function () {
+//       return this.prop1;
+//     },
+//   };
+  
+//   let obj2 = {
+//     prop2: 2,
+//     meth2: function () {
+//       return this.prop2;
+//     },
+//   };
+  
+//   let targetObject = {
+//     prop1: 100,
+//     prop3: 3,
+//   };
+  
+//   let finalObject = Object.assign(targetObject, obj1, obj2);
+//   console.log(targetObject);
+//   console.log(finalObject);
+//   finalObject.prop1 = 200;
+//   finalObject.prop4 = 4;
 
+// console.log(finalObject);
 
+// let newObject = Object.assign({},obj1,{prop5:5, prop6: 6});
+// console.log(newObject)
 
 
 
