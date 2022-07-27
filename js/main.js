@@ -511,7 +511,21 @@
 
 
 
-
+// const myJsonObjectFromServer = '{"Username": "Alaa", "Age": 26}';
+// console.log(typeof myJsonObjectFromServer);
+// console.log(myJsonObjectFromServer);
+// const myobj = JSON.parse(myJsonObjectFromServer);
+// console.log(typeof myobj);
+// console.log(myobj);
+// myobj["Username"] = "Mohammed";
+// myobj["Age"] = 20;
+// const myJsonObjectToServer = JSON.stringify(myobj);
+// console.log(typeof myJsonObjectToServer);
+// console.log(myJsonObjectToServer);
+// // const myobj = JSON.stringify(myJsonObjectFromServer);
+// // const myobj2 = JSON.parse(myobj);
+// // console.log(typeof myobj2);
+// // console.log(myobj2);
 
 
 
