@@ -559,8 +559,22 @@
 // let myVar = 100;
 // myVar += 100;
 
+// let req = new XMLHttpRequest();
+// console.log(req);
 
-
+let myRequest = new XMLHttpRequest();
+myRequest.open("GET","https://api.github.com/users/AlaaAldeenBK/repos", true);
+myRequest.send();
+console.log(myRequest);
+myRequest.onreadystatechange = function()
+{
+    console.log(myRequest.readyState);
+    console.log(myRequest.status);
+    if(this.readyState === 4 && this.status === 200)
+    {
+        console.log(this.responseText)
+    }
+}
 
 
 
